@@ -124,6 +124,28 @@
             </ul>
         </section>
 
+        <section class="mt-10 p-6 bg-gray-800/50 rounded-xl">
+            <h2 class="text-2xl font-bold text-cyan-400 mb-4">About this Tool</h2>
+            <p class="text-gray-400 mb-4">
+                This calculator provides a user-friendly interface to compute Clebsch-Gordan coefficients for the coupling of two angular momenta. Simply input the quantum numbers for the two initial states (<span class="font-mono text-rose-400">|j₁, m₁⟩</span> and <span class="font-mono text-lime-400">|j₂, m₂⟩</span>), and the tool will automatically determine all possible coupled states and their corresponding coefficients.This website was created using Gemini AI.
+            </p>
+            <p class="text-gray-400">
+                The calculation is based on Racah's formula and implemented using log-factorials to ensure high numerical accuracy, even for larger quantum numbers. Results are displayed in their exact symbolic form (fractions and square roots) to align with standard academic notation, providing a more precise alternative to decimal approximations.
+            </p>
+        </section>
+        
+        <div class="mt-10 text-center">
+            <img src="https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=2071&auto=format&fit=crop"
+                 onerror="this.onerror=null;this.src='https://placehold.co/800x400/111827/67e8f9?text=Quantum+Mechanics';"
+                 alt="Abstract representation of quantum mechanics"
+                 class="rounded-xl mx-auto shadow-lg w-full max-w-2xl">
+            
+        </div>
+
+        <footer class="text-center mt-12 mb-4 p-4 text-gray-500 text-sm">
+            <p>&copy; 2025 Irfan. All Rights Reserved.</p>
+        </footer>
+
     </div>
 
 <script>
@@ -338,4 +360,7 @@
 
 </body>
 </html>
+
+
+
 
